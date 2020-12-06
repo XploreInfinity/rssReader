@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="feedReader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/feedReader_jar</output-path>
+    <root id="root">
+      <element id="module-output" name="feedReader" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/resources/mysql-connector-java-8.0.18.jar" path-in-jar="/" />
+      <element id="archive" name="feedReader.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+    </root>
+  </artifact>
+</component>
